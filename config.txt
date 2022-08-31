@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxbe5691eb3ccd56c5",
+# 公众号appSecret
+"app_secret": "a59c45031ffc5165b84721e0440830f9",
+# 模板消息id
+"template_id": "l--asfn2333G0l4dNI8B4Z9QTbDJjm1iYZCr5HsC2Hg",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["weixin1", "weixin2"]
+"user": ["oERmO5wpVRHlFa-520RV8L-9ZIoQ"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "f4a13b944d1b472a931d162d71a3e7bb",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "太仓",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "椿椿", "birthday": "2001-05-17"},
+# 生日2
+"birthday2": {"name": "小林", "birthday": "2000-09-04"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2022-05-30",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "Loving you is worth everything to me",
+# 金句英文
+"note_en": "对我来说,爱你一切都值得"
+}
